@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadastro: Guarda-Tudo</title>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/cadastro.css">
+</head>
+
+<body>
+	<form>
+		<div class="nomeAtividade form-group">
+			<label for="exampleFormControlNome">Nome da Atividade</label>
+			<input class="form-control" type="text" placeholder="Ex:Stranger Things" required>
+		</div><!--Final da DIV NOME DE ATIVIDADE-->
+		
+		<div class="descricaoAtividade form-group">
+			<label for="exampleFormControlDescricao">Insira a Descrição da Atividade</label>
+			<textarea name="descricao" class="form-control textbox" rows="3" placeholder="Ex:Não dá pra entender Kingdom Hearts!" ></textarea>
+		</div>
+
+		<div class="row">
+			<div class="tipoAtividade form-group">
+					<select class="custom-select form-control" id="formControlSelectTipo" required>
+						<option selected>Selecione o Tipo de Atividade</option>
+						<option>Filme</option>
+						<option>Anime</option>
+						<option>Série</option>
+						<option>Jogo</option>
+						<option>Livro</option>
+						<option>HQ/Mangá</option>
+						<option>Tarefa</option>
+						<option>Outros</option>
+					</select>	
+				</div><!--Final da DIV TIPO DE ATIVIDADE-->
+				
+				<div class="statusAtividade form-group">
+					<select class="custom-select form-control" id="formControlSelectStatus" required>
+						<option selected>Defina um Status</option>
+						<option>Fazendo</option>
+						<option>Completo</option>
+						<option>Em Pausa</option>
+						<option>Dropado</option>
+						<option>Ainda a Fazer</option>
+						<option>Lista de Desejos</option>
+					</select>
+				</div><!--Final da DIV TIPO DE ATIVIDADE-->			
+		</div><!--Final da DIV ROW-->
+
+		<div class="form-control">
+			<a href="index.html" type="submit" class="btn btn-primary" role="button" onclick="alert('Nova Atividade Registrada com Sucesso!')">Salvar</a>
+			<input class="btn btn-primary" type="reset" onclick="alert('Preencha Novamente!')" value="Limpar">		
+		</div>
+
+
+
+	</form>
+</body>
+</html>

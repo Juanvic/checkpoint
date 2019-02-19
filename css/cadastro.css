@@ -1,0 +1,31 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
+
+* {
+	font-family: 'Open Sans', sans-serif;
+	-webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-670975.png);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nomeAtividade {
+    color: #ffffff;
+}
+
+.descricaoAtividade{
+    color: #ffffff;
+}
+
+.textbox{
+    
+}

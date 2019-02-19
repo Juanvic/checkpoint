@@ -1,0 +1,49 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
+
+* {
+	font-family: 'Open Sans', sans-serif;
+	-webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+
+
+.botoes {
+	padding: 0;
+    text-align: center;
+}
+
+.btnHome{
+    background-color: transparent;
+    border: 3px solid white;
+    color: aliceblue;
+}
+
+h1, h4 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.giantTitle {
+    font-size: 40px;
+    color: #ffffff;
+    font-style: bold;
+}
+
+.subTitle {
+    margin-bottom: 30px;
+}
+
+
+header{
+    background-image: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-670975.png);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
