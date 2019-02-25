@@ -1,12 +1,10 @@
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
 
-* {
-	font-family: 'Open Sans', sans-serif;
+body {
+    font-family: 'Orbitron', sans-serif;
 	-webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
 }
-
 
 
 .botoes {
